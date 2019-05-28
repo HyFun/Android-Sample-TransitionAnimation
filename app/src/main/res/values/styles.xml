@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.ScaleTheme">
+        <item name="android:windowAnimationStyle">@style/ScanAnimation</item>
+    </style>
+
+    <style name="ScanAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_scale_close_exit</item>
+    </style>
+
+
+    <style name="animation_translucent_translate" parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:activityOpenEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:wallpaperCloseEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:wallpaperCloseExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:wallpaperIntraOpenEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:wallpaperIntraOpenExitAnimation">@anim/anim_scale_open_exit</item>
+        <item name="android:wallpaperIntraCloseEnterAnimation">@anim/anim_scale_open_enter</item>
+        <item name="android:wallpaperIntraCloseExitAnimation">@anim/anim_scale_open_exit</item>
+    </style>
+
+</resources>
